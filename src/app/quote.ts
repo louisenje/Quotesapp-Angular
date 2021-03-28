@@ -1,3 +1,4 @@
-export class Quote {
-    st
+export class quote {
+    PersonSubmitted:boolean;
+  name: any;
 }
