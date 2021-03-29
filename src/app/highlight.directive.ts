@@ -12,7 +12,7 @@ quote: Quote
 
 @HostListener('mouseenter') onMouseEnter() {
     
-  this.highlight('yellow');
+  this.highlight('turquoise')
 }
 @HostListener('mouseleave') onMouseLeave() {
   this.highlight(null);

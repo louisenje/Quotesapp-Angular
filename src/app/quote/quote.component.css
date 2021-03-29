@@ -13,6 +13,7 @@ h2{
     color: aqua;
     font-size: 40px;
     text-align: center;
+    
  
 }
 
@@ -29,6 +30,9 @@ h2{
     text-align: left;
     font-family: fantasy;
     font-style: italic;
+    padding-left: 90px;
+    padding-top: 100px;font-weight: 800;
+
 }
 .bo{
     background-image: url('https://lh3.googleusercontent.com/proxy/0eNEe7UnQj3HbROfOXmOaXFzqzP1UohN78_SGLofd1QNFwlxNPYRxd6JE9SotTh0iRmwYj8GKNF7C15XywjBnBs-SBcvNVabcYjSjIjonLFdmrfotGMic-iNfqdCtzaqCwOp-X0owbBGYe_xw6KbXH_T');
