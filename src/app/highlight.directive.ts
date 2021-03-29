@@ -1,4 +1,4 @@
-import { Directive ,ElementRef} from '@angular/core';
+import { Directive ,ElementRef ,HostListener} from '@angular/core';
 import{Quote} from '../quote'
 
 @Directive({
