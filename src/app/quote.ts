@@ -10,8 +10,8 @@ export class Quote {
             public entryDate?:Date,
             //public entryTime?:Time
             ){
-                //this.PersonSubmitted=false;
-                // this.upvote=0;
-                // this.downvote=0;
+                this.PersonSubmitted=false;
+                 //this.upvote=0;
+                 //this.downvote=0;
             }
     }

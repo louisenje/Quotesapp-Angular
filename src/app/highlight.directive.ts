@@ -1,5 +1,6 @@
 import { Directive ,ElementRef ,HostListener} from '@angular/core';
-import{Quote} from '../quote'
+import { Quote } from '@angular/compiler';
+
 
 @Directive({
   selector: '[appHighlight]'
@@ -8,6 +9,7 @@ export class HighlightDirective {
 constructor(private elem:ElementRef) { }
  
 quote: Quote
+
 @HostListener('mouseenter') onMouseEnter() {
     
   this.highlight('yellow');
