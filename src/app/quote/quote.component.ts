@@ -26,6 +26,9 @@ export class QuoteComponent implements OnInit {
       }
     }
   }
+  toggleDetails(index: string | number){
+    this.quotes[index].PersonSubmitted = !this.quotes[index].PersonSubmitted;
+  }
 
 
   constructor() { }
