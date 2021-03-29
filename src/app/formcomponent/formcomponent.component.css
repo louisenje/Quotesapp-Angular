@@ -10,10 +10,30 @@
     .cd{
     
         vertical-align: middle;
+        background-image: url('https://lh3.googleusercontent.com/proxy/0eNEe7UnQj3HbROfOXmOaXFzqzP1UohN78_SGLofd1QNFwlxNPYRxd6JE9SotTh0iRmwYj8GKNF7C15XywjBnBs-SBcvNVabcYjSjIjonLFdmrfotGMic-iNfqdCtzaqCwOp-X0owbBGYe_xw6KbXH_T');
+        background-repeat: no-repeat;
+        background-size:cover;
+        position: relative;
+        background-attachment: fixed;
+       height: 600px;
+       width: 1400px;
     }
     .ddd{
         width: 150px;
     }
     .bgbg{
         color: rgb(3, 54, 54);
+    }
+    .be{
+        color: aqua;
+        font-size: 30px;
+    }
+    .badguy{
+        color: aqua;
+        font-size: 30px;
+    }
+    .jumbotron{
+       color: #b3e6ff;
+       
+       
     }

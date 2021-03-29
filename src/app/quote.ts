@@ -1,3 +1,5 @@
+import { Time } from '@angular/common';
+
 export class Quote {
     PersonSubmitted:boolean;
       name: any;
@@ -8,7 +10,7 @@ export class Quote {
             public upvote?:number,
             public downvote?:number,
             public entryDate?:Date,
-            //public entryTime?:Time
+            public entryTime?:Time
             ){
                 this.PersonSubmitted=false;
                  //this.upvote=0;
