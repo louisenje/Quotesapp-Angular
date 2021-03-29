@@ -14,6 +14,19 @@ export class QuoteComponent implements OnInit {
     new Quote("Everything you can imagine is real ","Pablo Picaso","Alex",0,0,new Date(2020,3,2))
 
   ];
+  addNewQuote(quote: Quote){
+    this.quotes.push(quote)
+  }
+  deleteQuote(isComplete, index){
+    if (isComplete) {
+      let toDelete = confirm(`Are you sure you want to delete QUote By; ${this.quotes[index].author}?`)
+
+      if (toDelete){
+        this.quotes.splice(index,1)
+      }
+    }
+  }
+
 
   constructor() { }
 
